@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Actors>
+    <BollyWood>
+        <Actor>Salman Khan</Actor>
+        <Actor>Aamir Khan</Actor>
+        <Actor>Kat</Actor>
+        <Actor>Anushka Sharma</Actor>
+        <Actor>Alia</Actor>
+    </BollyWood>
+    <TollyWood>
+        <Actor>PK</Actor>
+        <Actor>Kajol</Actor>
+        <Actor>Samantha</Actor>
+        <Actor>Nani</Actor>
+        <Actor>Sai Pallavi</Actor>
+    </TollyWood>
+</Actors>

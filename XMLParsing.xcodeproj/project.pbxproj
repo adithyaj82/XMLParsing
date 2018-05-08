@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181E1A6220A2216000664AC7 /* test.xml in Resources */ = {isa = PBXBuildFile; fileRef = 181E1A6120A2216000664AC7 /* test.xml */; };
 		9AB2CA70205409E400854776 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB2CA6F205409E400854776 /* AppDelegate.swift */; };
 		9AB2CA72205409E400854776 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB2CA71205409E400854776 /* ViewController.swift */; };
 		9AB2CA75205409E400854776 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AB2CA73205409E400854776 /* Main.storyboard */; };
 		9AB2CA77205409E400854776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AB2CA76205409E400854776 /* Assets.xcassets */; };
 		9AB2CA7A205409E400854776 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AB2CA78205409E400854776 /* LaunchScreen.storyboard */; };
+		9AB2CA8220540A0C00854776 /* india.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9AB2CA8120540A0C00854776 /* india.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		181E1A6120A2216000664AC7 /* test.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = test.xml; sourceTree = "<group>"; };
 		9AB2CA6C205409E400854776 /* XMLParsing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMLParsing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AB2CA6F205409E400854776 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9AB2CA71205409E400854776 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		9AB2CA76205409E400854776 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AB2CA79205409E400854776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9AB2CA7B205409E400854776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AB2CA8120540A0C00854776 /* india.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = india.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,9 @@
 				9AB2CA73205409E400854776 /* Main.storyboard */,
 				9AB2CA76205409E400854776 /* Assets.xcassets */,
 				9AB2CA78205409E400854776 /* LaunchScreen.storyboard */,
+				181E1A6120A2216000664AC7 /* test.xml */,
 				9AB2CA7B205409E400854776 /* Info.plist */,
+				9AB2CA8120540A0C00854776 /* india.xml */,
 			);
 			path = XMLParsing;
 			sourceTree = "<group>";
@@ -91,7 +97,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = Theegala;
 				TargetAttributes = {
 					9AB2CA6B205409E400854776 = {
@@ -124,6 +130,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AB2CA7A205409E400854776 /* LaunchScreen.storyboard in Resources */,
+				181E1A6220A2216000664AC7 /* test.xml in Resources */,
+				9AB2CA8220540A0C00854776 /* india.xml in Resources */,
 				9AB2CA77205409E400854776 /* Assets.xcassets in Resources */,
 				9AB2CA75205409E400854776 /* Main.storyboard in Resources */,
 			);
@@ -177,6 +185,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -184,6 +193,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -234,6 +244,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -241,6 +252,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
